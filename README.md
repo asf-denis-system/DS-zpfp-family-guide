@@ -44,6 +44,17 @@
 | [project-operating-model](docs/project-operating-model-2026-04-01.md) | Операционная модель |
 | [onboarding-lev](docs/onboarding-lev-2026-03.md) | Онбординг Льва (пилот) |
 
+## Иерархия source-of-truth
+
+```
+PACK-kids-learning        = upstream truth (доменные знания, принципы, роли, FM)
+docs/module-structure.md  = contract (архитектура для WP-149 и Церена)
+guide/m0-m7               = narrative (читабельные тексты для наставника)
+cards/ + prompts/         = execution (артефакты исполнения: карточки, промпты бота)
+```
+
+При расхождении: Pack побеждает guide, guide побеждает cards/prompts.
+
 ## Связи
 
 - **Pack:** [PACK-kids-learning](https://github.com/asf-denis-system/PACK-kids-learning) — source-of-truth
