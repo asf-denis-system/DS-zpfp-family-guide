@@ -4,7 +4,7 @@
 
 ## Статус
 
-**v2.3 — MVP-готовность** (2026-04-02)
+**v2.4 — слои сведены** (2026-04-02)
 
 - [x] Структура модулей согласована ([docs/module-structure.md](docs/module-structure.md))
 - [x] Тексты модулей m0-m7 ([guide/](guide/))
@@ -16,16 +16,16 @@
 
 ## Структура программы
 
-| Модуль | Что | Текст | Статус |
+| Модуль | Что | Строк | Статус |
 |--------|-----|-------|--------|
-| [0. Онбординг](guide/m0-onboarding/) | Контекст семьи, замер, стратегия | [README.md](guide/m0-onboarding/README.md) | Черновик |
-| [1. Фундамент](guide/m1-foundation/) | Зачем ZP детям, роли, карго-культ | [README.md](guide/m1-foundation/README.md) | Черновик |
-| [2. Метод](guide/m2-method/) | Протокол 7 шагов, треки, SoTA-механики | [README.md](guide/m2-method/README.md) | Черновик |
-| [3. Принципы](guide/m3-principles/) | 8 ZP × подмодули (ядро, ~8 мес) | [README.md](guide/m3-principles/README.md) | Черновик |
-| [4. Оценка](guide/m4-assessment/) | Mastery Map, Guard Policy, FM | [README.md](guide/m4-assessment/README.md) | Черновик |
-| [5. Стратегия](guide/m5-strategy/) | Стратегия ребёнка, программа, план | [README.md](guide/m5-strategy/README.md) | Черновик |
-| [6. Контексты](guide/m6-contexts/) | Садик, школа, кружки, безопасность | [README.md](guide/m6-contexts/README.md) | Черновик |
-| [7. Следующий виток](guide/m7-next-spiral/) | Культура семьи, углубление ZP, мост к FP | [README.md](guide/m7-next-spiral/README.md) | Черновик |
+| [0. Онбординг](guide/m0-onboarding/README.md) | Контекст семьи, замер, стратегия | 167 | MVP |
+| [1. Фундамент](guide/m1-foundation/README.md) | Зачем ZP детям, роли, карго-культ | 120 | MVP |
+| [2. Метод](guide/m2-method/README.md) | Протокол 7 шагов, треки, пример лога | 394 | MVP |
+| [3. Принципы](guide/m3-principles/README.md) | 8 ZP: эпизоды, домены, Guard Policy, поломки | 659 | MVP |
+| [4. Оценка](guide/m4-assessment/README.md) | Mastery Map, Guard Policy, 10 FM, пример карты | 533 | MVP |
+| [5. Стратегия](guide/m5-strategy/README.md) | Стратегия, программа, план, пример плана | 293 | MVP |
+| [6. Контексты](guide/m6-contexts/README.md) | Садик, школа, кружки, безопасность | 257 | MVP |
+| [7. Следующий виток](guide/m7-next-spiral/README.md) | Культура семьи, углубление ZP, мост к FP | 264 | MVP |
 
 ## Карточки и промпты
 
