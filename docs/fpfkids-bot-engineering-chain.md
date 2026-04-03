@@ -18,7 +18,7 @@ verification_class: problem-framing
 | Репо | **Отдельный бот-репо** (DS-zpfp-family-bot) | Другой тип пользователя, другой lifecycle, другой контур L4→L3 |
 | Пользователи MVP | Автор + 2-3 тестера из пилота | Достаточно для обратной связи, минимум рисков |
 | Фреймворк | aiogram 3.x (как DS-personal-bot) | Уже знаем, деплой на том же VPS |
-| AI backend | Claude API (Sonnet для генерации, Haiku для оценки) | Как в AIST planner.py |
+| AI backend | **YandexGPT** (prod, РФ) / OpenRouter (dev). Claude API — при интеграции в AIST | РФ-доступность, паттерн из DS-nutritionist-calculator |
 | Хранение | SQLite (семья, дети, логи, Mastery Map) | Для MVP достаточно |
 | Контент | Из PACK-kids-learning + cards/ из DS-zpfp-family-guide | Source-of-truth = Pack |
 
